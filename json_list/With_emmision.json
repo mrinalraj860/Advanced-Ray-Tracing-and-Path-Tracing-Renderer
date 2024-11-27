@@ -1,0 +1,189 @@
+{
+    "camera": {
+        "type": "pinhole",
+        "width": 800,
+        "height": 600,
+        "position": [
+            0,
+            0.5,
+            -2
+        ],
+        "lookAt": [
+            0,
+            0,
+            1
+        ],
+        "upVector": [
+            0,
+            1,
+            0
+        ],
+        "fov": 45,
+        "exposure": 1.0
+    },
+    "scene": {
+        "backgroundcolor": [
+            0.1,
+            0.1,
+            0.1
+        ],
+        "lightsources": [
+            {
+                "type": "pointlight",
+                "position": [
+                    0,
+                    1,
+                    0
+                ],
+                "intensity": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        ],
+        "shapes": [
+            {
+                "type": "sphere",
+                "center": [
+                    0,
+                    0,
+                    1
+                ],
+                "radius": 0.5,
+                "material": {
+                    "ks": 0.1,
+                    "kd": 0.9,
+                    "specularexponent": 50,
+                    "diffusecolor": [
+                        0.8,
+                        0.3,
+                        0.3
+                    ],
+                    "specularcolor": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "emissioncolor": [
+                        0.5,
+                        0.1,
+                        0.1
+                    ],
+                    "isreflective": false,
+                    "reflectivity": 0,
+                    "isrefractive": false,
+                    "refractiveindex": 1.0
+                }
+            },
+            {
+                "type": "triangle",
+                "v0": [
+                    -0.5,
+                    -0.5,
+                    2
+                ],
+                "v1": [
+                    0.5,
+                    -0.5,
+                    2
+                ],
+                "v2": [
+                    0,
+                    0.5,
+                    2
+                ],
+                "material": {
+                    "ks": 0.2,
+                    "kd": 0.7,
+                    "specularexponent": 20,
+                    "diffusecolor": [
+                        0.3,
+                        0.8,
+                        0.3
+                    ],
+                    "specularcolor": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "emissioncolor": [
+                        0.1,
+                        0.5,
+                        0.1
+                    ],
+                    "isreflective": false,
+                    "reflectivity": 0,
+                    "isrefractive": false,
+                    "refractiveindex": 1.0
+                }
+            },
+            {
+                "type": "sphere",
+                "center": [
+                    1,
+                    0.5,
+                    1.5
+                ],
+                "radius": 0.3,
+                "material": {
+                    "ks": 0.0,
+                    "kd": 0.8,
+                    "specularexponent": 0,
+                    "diffusecolor": [
+                        0.5,
+                        0.5,
+                        1.0
+                    ],
+                    "specularcolor": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "emissioncolor": [
+                        0.2,
+                        0.2,
+                        1.0
+                    ],
+                    "isreflective": false,
+                    "reflectivity": 0,
+                    "isrefractive": false,
+                    "refractiveindex": 1.0
+                }
+            },
+            {
+                "type": "sphere",
+                "center": [
+                    -1,
+                    -0.25,
+                    0.75
+                ],
+                "radius": 0.25,
+                "material": {
+                    "ks": 0.3,
+                    "kd": 0.7,
+                    "specularexponent": 30,
+                    "diffusecolor": [
+                        0.3,
+                        0.3,
+                        0.3
+                    ],
+                    "specularcolor": [
+                        0.8,
+                        0.8,
+                        0.8
+                    ],
+                    "emissioncolor": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ],
+                    "isreflective": true,
+                    "reflectivity": 0.8,
+                    "isrefractive": false,
+                    "refractiveindex": 1.0
+                }
+            }
+        ]
+    }
+}

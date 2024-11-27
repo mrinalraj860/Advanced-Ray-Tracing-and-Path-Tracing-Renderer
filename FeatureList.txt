@@ -1,0 +1,28 @@
+1. Basic raytracer features
+(a) Image writing (3)  -- Done
+(b) Virtual pin-hole camera (5) -- Done
+(c) Intersection tests (5) -- Done
+(d) Blinn-Phong shading (5) -- Done
+(e) Shadows (5) -- Done
+(f) Tone mapping (2) -- Done
+(g) Reflection (5) -- Done
+(h) Refraction (5) -- Done
+2. Intermediate raytracer features  
+(a) Textures (5) -- Done 
+(b) Acceleration hierarchy (10) -- Done
+3. Advanced raytracer features
+(a) Pixel sampling (5) -- Done
+(b) Lens sampling (5) -- Done
+(c) BRDF sampling (5) -- Done 
+(d) Light sampling (5) -- Done
+
+
+Extras:
+(a) Implemented 2 blend files with same scene as Binary_primitives.json and simple_phong.json named as Binary.blend and blend_for_json.blend
+(b) Implemented a script to load any json in blend named Json_blend.py
+(c) Multi Threading approach
+(d) Linear mapping with gamma correction and also implemented reinhardToneMapping
+(F) Created a table for Time difference between without sample tracing and BVH based Tracing and  sampled tracing 
+(E) Material Metal, Dielectric and Diffuse but could not get perfect json to implement it.
+(F) Two type of images are saved one is Lambertian saving them another is linear corrected with gamma.
+(H) created Custom json with emission to check path tracing and its output. 
